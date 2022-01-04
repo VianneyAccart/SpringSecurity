@@ -18,7 +18,7 @@ public class AvengersController {
 	
 	@GetMapping("/secret-bases") 
 	public String secretBases() {
-		return "Lyon, La Loupe, etc...";
+		return "Amsterdam, Barcelone, Berlin, Biarritz, Bordeaux, Bruxelles, Bucarest, La Loupe, Lille, Lisbonne, Londes, Lyon, Madrid, Marseille, Nantes, Orléans, Paris, Reims, Strasbourg, Toulouse, Tours";
 	}
 
 }
