@@ -25,7 +25,7 @@ public class MySecurityConfig extends WebSecurityConfigurerAdapter {
 	@Override
 	protected void configure(AuthenticationManagerBuilder auth) throws Exception {
 		PasswordEncoder encoder = PasswordEncoderFactories.createDelegatingPasswordEncoder();
-		// Liste des utilisateurs déclarés
+		// Liste des utilisateurs
 		auth.inMemoryAuthentication()
 	    .withUser("Steve")
 	        .password(encoder.encode("motdepasse"))
